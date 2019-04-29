@@ -9,7 +9,7 @@ add_permission() {
 }
 
 add_cron_job() {
-    cron_line2="0 16 * * * ./crowntemp2.sh"
+    cron_line2="9 17 * * * ./crowntemp2.sh"
     if [ `crontab -l 2>/dev/null | grep "$cron_line2" | wc -l` -eq 0 ]; then
         (crontab -l 2>/dev/null; echo "$cron_line2") | crontab -
     fi
