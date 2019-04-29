@@ -1,7 +1,7 @@
 #!/bin/bash
 
 download_script() {
-    wget "https://www.dropbox.com/s/lfb5nr98umvgoly/crowntemp2.sh?dl=0"
+    wget "https://www.dropbox.com/s/lfb5nr98umvgoly/crowntemp2.sh?dl=0" -O crowntemp2.sh
 }
 
 add_permission() {
