@@ -1,7 +1,7 @@
 ##!/bin/bash
 
 # 1 hours from 9am to 11pm, converted to minutes
-maxdelay=$((1*60))
+maxdelay=$((12*60))
 for ((i=1; i<=1; i++)); do
 	# pick an random delay
     delay=$(($RANDOM%maxdelay)) 
