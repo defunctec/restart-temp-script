@@ -25,8 +25,8 @@ main() {
     # Ensure there is a cron job to restart crownd on reboot
     add_cron_job
     # Allow wallet to shutdown
-    echo Please wait 5 minuets while the Crown client restarts.
-    sleep 300
+    echo Please wait 1 minuets while the Crown client restarts.
+    sleep 60
     # Start Crownd to begin sync
     /usr/local/bin/crownd
 }
